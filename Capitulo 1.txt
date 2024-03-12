@@ -1,0 +1,35 @@
+Respostas:
+
+Exercício 1.1:
+Os 3 tipos de códigos básicos de uma página de hipertexto são:
+
+HTML (Hypertext Markup Language): Responsável pela estruturação e organização do conteúdo da página. Utiliza tags para definir elementos como títulos, parágrafos, imagens, links, entre outros.
+
+CSS (Cascading Style Sheets): Responsável pela apresentação visual da página, incluindo layout, cores, fontes e estilos. Permite separar a estrutura (HTML) do design (CSS).
+
+Javascript: Uma linguagem de programação que adiciona interatividade à página. Permite manipular o conteúdo, responder a eventos do usuário e realizar requisições assíncronas, entre outras funcionalidades.
+
+Exercício 1.2:
+Não há um limite estrito para o número de arquivos CSS e Javascript que podem estar vinculados a uma mesma página de hipertexto. No entanto, é importante considerar a eficiência e o desempenho da página. O ideal é otimizar e consolidar os arquivos para reduzir o número de requisições, melhorando o carregamento da página.
+
+Exercício 1.3:
+Sim, é possível que diferentes páginas de hipertexto tenham vínculo com os mesmos arquivos Javascript e CSS. Isso promove a reutilização de recursos, economizando largura de banda e melhorando a consistência visual e funcional em todo o site.
+
+Exercício 1.4:
+
+Página Estática:
+
+Vantagens: Carregamento rápido, fácil cache, menos processamento no servidor.
+Desvantagens: Conteúdo inflexível, exigindo alterações manuais para atualizações.
+Página Dinâmica:
+
+Vantagens: Conteúdo personalizado, interatividade, atualizações automáticas.
+Desvantagens: Maior carga no servidor, potencialmente mais lenta, complexidade no desenvolvimento.
+Exercício 1.5:
+O caminho percorrido por uma requisição HTTP a uma página de hipertexto estática envolve os seguintes passos:
+
+Cliente (Navegador): Inicia a requisição enviando uma solicitação HTTP para o servidor.
+Servidor: Recebe a requisição e localiza o arquivo estático solicitado.
+Servidor: Retorna o arquivo solicitado como resposta à requisição.
+Cliente (Navegador): Recebe o arquivo e renderiza a página.
+Diferentemente das páginas dinâmicas, as estáticas não envolvem processamento no servidor ou geração de conteúdo personalizado para cada requisição.

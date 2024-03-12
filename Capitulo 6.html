@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios Áudio HTML</title>
+</head>
+
+<body>
+
+    <!-- Exercício 6.1: Elemento de áudio com dois formatos -->
+    <audio controls>
+        <source src="audio.mp3" type="audio/mp3">
+        <source src="audio.ogg" type="audio/ogg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <!-- Exercício 6.2: Elemento de áudio com música embutida e letra -->
+    <audio controls>
+        <source src="musica.mp3" type="audio/mp3">
+        <source src="musica.ogg" type="audio/ogg">
+        Seu navegador não suporta o elemento de áudio.
+        <track src="letra.vtt" kind="subtitles" srclang="pt" label="Português">
+    </audio>
+
+    <!-- Exercício 6.3: Áudio com autoplay e controles visíveis -->
+    <audio controls autoplay>
+        <source src="audio.mp3" type="audio/mp3">
+        <source src="audio.ogg" type="audio/ogg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <!-- Exercício 6.4: Áudio com loop e três formatos -->
+    <audio controls loop>
+        <source src="audio.mp3" type="audio/mp3">
+        <source src="audio.ogg" type="audio/ogg">
+        <source src="audio.wav" type="audio/wav">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+    <!-- Exercício 6.5: Áudio com preload "none" e dois formatos -->
+    <audio controls preload="none">
+        <source src="audio.mp3" type="audio/mp3">
+        <source src="audio.ogg" type="audio/ogg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios Imagens HTML</title>
+</head>
+
+<body>
+
+    <!-- Exercício 5.1: Imagem com texto alternativo -->
+    <img src="imagem.jpg" alt="Imagem de um gato">
+
+    <!-- Exercício 5.2: Imagem local com largura e altura especificadas -->
+    <img src="cachorro.jpg" alt="Imagem de um cachorro" width="400" height="300">
+
+    <!-- Exercício 5.3: Imagem externa com largura especificada -->
+    <img src="https://mundoemrevista.com.br/wp-content/uploads/2023/11/aneis-de-saturno.webp" alt="Foto do planeta Saturno" width="300">
+
+    <!-- Exercício 5.4: Imagem com texto alternativo como link externo -->
+    <a href="https://exemplo.com" target="_blank">
+        <img src="logo.png" alt="Logotipo da empresa">
+    </a>
+
+    <!-- Exercício 5.5: Elemento <picture> com resoluções diferentes -->
+    <picture>
+        <source media="(max-height: 720px)" srcset="imagem_720px.jpg">
+        <source media="(min-height: 721px)" srcset="imagem_1080px.jpg">
+        <img src="fallback_imagem.jpg" alt="Imagem responsiva">
+    </picture>
+
+</body>
+
+</html>
