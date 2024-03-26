@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exercícios CSS</title>
+
+<style>
+/* Exercício 11.1: ::before para adicionar um asterisco antes dos títulos h1 */
+h1::before {
+  content: "* ";
+}
+
+/* Exercício 11.2: ::after para adicionar uma linha horizontal após os parágrafos */
+p::after {
+  content: "";
+  display: block;
+  border-top: 1px solid black;
+  margin-top: 10px;
+}
+
+/* Exercício 11.3: ::first-letter para aumentar a fonte da primeira letra dos parágrafos */
+p::first-letter {
+  font-size: 150%;
+}
+
+/* Exercício 11.4: ::first-line para alterar a cor da primeira linha dos parágrafos */
+p::first-line {
+  color: red;
+}
+
+/* Exercício 11.5: ::marker para alterar a cor dos marcadores dos itens de lista para verde */
+ul::marker,
+ol::marker {
+  color: green;
+}
+</style>
+
+</head>
+<body>
+
+<!-- Exemplo de aplicação dos pseudoseletores CSS definidos acima -->
+<h1>Título com asterisco</h1>
+
+<p>Parágrafo com linha horizontal após.</p>
+
+<p>Este é um parágrafo com a primeira letra aumentada.</p>
+
+<p>Este é outro parágrafo com a primeira linha em vermelho.</p>
+
+<ul>
+  <li>Item de lista com marcador verde</li>
+  <li>Outro item de lista com marcador verde</li>
+</ul>
+
+<ol>
+  <li>Item de lista ordenada com marcador verde</li>
+  <li>Outro item de lista ordenada com marcador verde</li>
+</ol>
+
+</body>
+</html>
